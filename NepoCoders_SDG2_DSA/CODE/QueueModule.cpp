@@ -2,35 +2,36 @@
 #include "FamilyModule.h"
 #include <iostream>
 #include <iomanip>
+using namespace std;
 
 void DisplayQueue() {
     if (AidQueue.empty()) {
-        std::cout << "\nQueue is empty.\n";
+        cout << "\nQueue is empty.\n";
         return;
     }
 
-    std::cout << "\nCURRENT AID QUEUE:\n";
-    std::cout << std::left
-         << std::setw(6) << "ID"
-         << std::setw(20) << "Name"
-         << std::setw(10) << "Members"
-         << std::setw(10) << "Type"
-         << std::setw(10) << "Priority" << std::endl;
+    cout << "\nCURRENT AID QUEUE:\n";
+    cout << left
+         << setw(6) << "ID"
+         << setw(20) << "Name"
+         << setw(10) << "Members"
+         << setw(10) << "Type"
+         << setw(10) << "Priority" << endl;
 
-    std::cout << std::string(56, '-') << std::endl;
+    cout << string(56, '-') << endl;
 
-    std::queue<Family> TempQueue = AidQueue;
+    queue<Family> TempQueue = AidQueue;
     while (!TempQueue.empty()) {
         Family f = TempQueue.front();
         TempQueue.pop();
 
-        std::cout << std::left
-         << std::setw(6) << f.Id
-         << std::setw(20) << f.Name
-         << std::setw(10) << f.Members
-         << std::setw(10) << f.Type
-         << std::setw(10) << (IsPriority(f.Type) ? "PRIORITY" : "NORMAL") << std::endl;
+        cout << left
+             << setw(6) << f.Id
+             << setw(20) << f.Name
+             << setw(10) << f.Members
+             << setw(10) << f.Type
+             << setw(10) << (IsPriority(f.Type) ? "PRIORITY" : "NORMAL") << endl;
     }
 
-    std::cout << "\nTotal families in queue: " << AidQueue.size() << std::endl;
+    cout << "\nTotal families in queue: " << AidQueue.size() << endl;
 }
