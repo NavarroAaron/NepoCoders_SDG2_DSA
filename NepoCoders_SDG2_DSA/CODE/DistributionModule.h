@@ -1,6 +1,14 @@
 #ifndef DISTRIBUTIONMODULE_H
 #define DISTRIBUTIONMODULE_H
 
-// Jimmy's Distribution System code goes here
+#ifndef DISTRIBUTIONMODULE_H
+#define DISTRIBUTIONMODULE_H
+
+#include <string>
+
+void RemoveFamilyFromList(std::string name);
+void Distribute();
+
+#endif
 
 #endif
