@@ -1,6 +1,4 @@
 #include "DistributionModule.h"
-
-#include "DistributionModule.h"
 #include "FamilyModule.h"
 #include "FoodPackModule.h"
 #include <iostream>
@@ -55,3 +53,4 @@ void Distribute() {
 
     cout << "--- DISTRIBUTION FINISHED ---\n";
 }
+
