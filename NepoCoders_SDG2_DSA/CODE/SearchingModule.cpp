@@ -1,4 +1,4 @@
-#include "SearchModule.h"
+#include "SearchingModule.h"
 #include "FamilyModule.h"
 #include "FoodPackModule.h"
 #include <iostream>
@@ -76,3 +76,4 @@ void LoadSampleData() {
 
     FoodPacks = { {"Rice", 10}, {"Noodles", 10}, {"CannedGoods", 10} };
 }
+
