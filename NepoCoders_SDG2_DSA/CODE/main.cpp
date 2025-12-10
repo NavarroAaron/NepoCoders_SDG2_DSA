@@ -2,7 +2,7 @@
 #include "FoodPackModule.h"
 #include "QueueModule.h"
 #include "DistributionModule.h"
-#include "SearchModule.h"
+#include "SearchingModule.h"
 #include <iostream>
 using namespace std;
 
@@ -37,3 +37,4 @@ int main() {
 
     return 0;
 }
+
