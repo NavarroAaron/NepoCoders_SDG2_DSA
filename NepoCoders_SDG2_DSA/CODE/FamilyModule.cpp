@@ -1,6 +1,8 @@
 #include "FamilyModule.h"
 #include <iostream>
 #include <algorithm>
+#include <vector>
+#include <queue>
 using namespace std;
 
 vector<Family> Families;
@@ -60,3 +62,4 @@ void RegisterFamily() {
 
     cout << "Family registered successfully!\n";
 }
+
