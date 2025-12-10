@@ -1,7 +1,5 @@
 #ifndef FAMILYMODULE_H
 #define FAMILYMODULE_H
-#ifndef FAMILYMODULE_H
-#define FAMILYMODULE_H
 
 #include <string>
 #include <vector>
@@ -22,5 +20,6 @@ extern std::queue<Family> AidQueue;
 bool IsDuplicate(std::string name);
 bool IsPriority(char type);
 void RegisterFamily();
-
+void DisplayFamilies();
 #endif
+
