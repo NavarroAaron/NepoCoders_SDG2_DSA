@@ -20,6 +20,7 @@ extern std::queue<Family> AidQueue;
 bool IsDuplicate(std::string name);
 bool IsPriority(char type);
 void RegisterFamily();
-void DisplayFamilies();
+
 #endif
+
 
