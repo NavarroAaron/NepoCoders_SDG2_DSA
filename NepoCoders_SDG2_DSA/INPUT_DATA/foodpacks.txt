@@ -1,0 +1,3 @@
+Rice,10
+Noodles,10
+CannedGoods,10

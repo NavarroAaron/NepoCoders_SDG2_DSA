@@ -1,0 +1,5 @@
+101,Navarro Family,4,123 Main St,V
+102,Garcia Family,3,456 Oak Ave,N
+103,Reyes Family,5,789 Pine Rd,V
+104,Cruz Family,6,321 Maple St,V
+105,Santos Family,4,654 Elm St,N
