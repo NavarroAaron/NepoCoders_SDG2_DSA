@@ -7,4 +7,3 @@ void RemoveFamilyFromList(std::string name);
 void Distribute();
 
 #endif
-
