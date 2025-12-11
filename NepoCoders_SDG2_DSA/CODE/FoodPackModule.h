@@ -8,5 +8,6 @@ extern std::vector<std::pair<std::string, int>> FoodPacks;
 
 void AddFoodPack();
 void DisplayFood();
-
+void InsertionSortFoodPacks(std::vector<std::pair<std::string, int>> &arr);
 #endif
+
