@@ -13,7 +13,7 @@ void DisplayFamilies() {
         return;
     }
 
-    cout << left
+    cout << left 
          << setw(6) << "ID"
          << setw(20) << "Name"
          << setw(10) << "Members"
@@ -30,7 +30,6 @@ void DisplayFamilies() {
              << setw(25) << f.Address
              << setw(10) << f.Type << endl;
     }
-
     cout << "\nTotal Families: " << Families.size() << endl;
 }
 
@@ -77,5 +76,3 @@ void LoadSampleData() {
     FoodPacks = { {"Rice", 10}, {"Noodles", 10}, {"CannedGoods", 10} };
     InsertionSortFoodPacks(FoodPacks);
 }
-
-
