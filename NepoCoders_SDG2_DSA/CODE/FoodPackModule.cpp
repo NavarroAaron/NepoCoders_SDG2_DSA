@@ -4,6 +4,18 @@ using namespace std;
 
 vector<pair<string, int>> FoodPacks;
 
+void InsertionSortFoodPacks(vector<pair<string,int>> &arr) {
+    for (int i = 1; i < arr.size(); i++) {
+        auto key = arr[i];
+        int j = i - 1;
+
+        while (j >= 0 && arr[j].first > key.first) {
+            arr[j + 1] = arr[j];
+            j--;
+        }
+        arr[j + 1] = key;
+    }
+}
 void AddFoodPack() {
     string foodName;
     int qty;
@@ -26,6 +38,7 @@ void AddFoodPack() {
         FoodPacks.push_back({foodName, qty});
         cout << "Added " << foodName << " with quantity: " << qty << endl;
     }
+    InsertionSortFoodPacks(FoodPacks);
 }
 
 void DisplayFood() {
@@ -36,6 +49,7 @@ void DisplayFood() {
         cout << "- " << f.first << " = " << f.second << endl;
     }
 }
+
 
 
 
