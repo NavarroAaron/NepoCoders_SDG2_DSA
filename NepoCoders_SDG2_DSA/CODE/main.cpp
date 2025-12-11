@@ -4,6 +4,7 @@
 #include "DistributionModule.h"
 #include "SearchingModule.h"
 #include "ReportModule.h"
+#include "UtilityModule.h"
 #include <iostream>
 using namespace std;
 
@@ -40,5 +41,6 @@ int main() {
 
     return 0;
 }
+
 
 
