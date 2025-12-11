@@ -75,5 +75,7 @@ void LoadSampleData() {
     }
 
     FoodPacks = { {"Rice", 10}, {"Noodles", 10}, {"CannedGoods", 10} };
+    InsertionSortFoodPacks(FoodPacks);
 }
+
 
