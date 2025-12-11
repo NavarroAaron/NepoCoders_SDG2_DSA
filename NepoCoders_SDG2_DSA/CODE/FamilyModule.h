@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 #include <queue>
-    
+#include <string>    
 struct Family {
     int Id;
     std::string Name;

@@ -9,10 +9,10 @@
 
 using namespace std;
 
-extern int TotalServed;
-extern vector<Family> Families;
-extern queue<Family> AidQueue;
-extern vector<pair<string,int>> FoodPacks;
+int TotalServed = 0;
+extern std::vector<Family> Families;
+extern std::queue<Family> AidQueue;
+extern std::vector<std::pair<std::string,int>> FoodPacks;
 
 void DisplayReport() {
     cout << "\n===== DISTRIBUTION SUMMARY REPORT =====\n";

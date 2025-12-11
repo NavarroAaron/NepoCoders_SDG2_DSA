@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-int TotalServed = 0;
+extern int TotalServed;
 void RemoveFamilyFromList(string name) {
     for (int i = 0; i < Families.size(); i++) {
         if (Families[i].Name == name) {
