@@ -48,7 +48,8 @@ void Distribute() {
 
      
         RemoveFamilyFromList(CurrentFamily.Name);
-
+        
+        TotalServed++;
         for (auto &f : FoodPacks) {
             f.second--;
         }
