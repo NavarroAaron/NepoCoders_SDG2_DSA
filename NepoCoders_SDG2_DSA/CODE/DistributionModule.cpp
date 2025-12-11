@@ -56,4 +56,3 @@ void Distribute() {
 
     cout << "--- DISTRIBUTION FINISHED ---\n";
 }
-
