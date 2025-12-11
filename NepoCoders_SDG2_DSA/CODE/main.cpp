@@ -3,6 +3,7 @@
 #include "QueueModule.h"
 #include "DistributionModule.h"
 #include "SearchingModule.h"
+#include "ReportModule.h"
 #include <iostream>
 using namespace std;
 
@@ -19,6 +20,7 @@ int main() {
         cout << "6. Show Food Packs\n";
         cout << "7. Show Queue\n";
         cout << "8. Exit\n";
+        cout << "9. Show Summary Report\n";
         cout << "Enter choice: ";
         cin >> choice;
 
@@ -31,10 +33,12 @@ int main() {
             case 6: DisplayFood(); break;
             case 7: DisplayQueue(); break;
             case 8: cout << "Thank you for helping our society <3.\n"; break;
+            case 9: DisplayReport(); break;
             default: cout << "Invalid choice!\n";
         }
     } while(choice != 8);
 
     return 0;
 }
+
 

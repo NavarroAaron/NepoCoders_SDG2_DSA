@@ -4,6 +4,7 @@
 #include <iostream>
 using namespace std;
 
+int TotalServed = 0;
 void RemoveFamilyFromList(string name) {
     for (int i = 0; i < Families.size(); i++) {
         if (Families[i].Name == name) {
@@ -44,6 +45,8 @@ void Distribute() {
         AidQueue.pop();
 
         cout << "Served 1 of each food to: " << CurrentFamily.Name << endl;
+
+     
         RemoveFamilyFromList(CurrentFamily.Name);
 
         for (auto &f : FoodPacks) {
