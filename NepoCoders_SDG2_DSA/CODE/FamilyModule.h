@@ -1,10 +1,10 @@
 #ifndef FAMILYMODULE_H
 #define FAMILYMODULE_H
-
+     
 #include <string>
 #include <vector>
 #include <queue>
-
+    
 struct Family {
     int Id;
     std::string Name;
@@ -22,5 +22,6 @@ bool IsPriority(char type);
 void RegisterFamily();
 
 #endif
+
 
 
