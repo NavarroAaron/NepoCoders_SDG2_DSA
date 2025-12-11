@@ -4,7 +4,7 @@
 #include <vector>
 #include <queue>
 using namespace std;
-
+   
 vector<Family> Families;
 queue<Family> AidQueue;
 
@@ -62,4 +62,5 @@ void RegisterFamily() {
 
     cout << "Family registered successfully!\n";
 }
+
 
